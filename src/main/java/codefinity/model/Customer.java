@@ -13,6 +13,11 @@ public class Customer {
         this.address = address;
     }
 
+    @Override
+    public String toString(){
+        return id + ": " + name + " - " + address;
+    }
+
     public int getId() {
         return id;
     }

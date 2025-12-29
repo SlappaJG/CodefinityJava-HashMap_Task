@@ -13,6 +13,11 @@ public class Product {
         this.quantity = quantity;
     }
 
+    @Override
+    public String toString(){
+        return id + ": " + name + " - $" + price;
+    }
+
     public int getId() {
         return id;
     }
